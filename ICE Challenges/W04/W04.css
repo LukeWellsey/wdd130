@@ -1,3 +1,47 @@
+.body {
+    background-color: #007DA5;
+    font-family: Calibri;
+    width: 70%;
+    margin: 0 auto;
+}
+.main {
+    width: 300px;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;   
+    color: white; 
+}
+.header:hover {
+    color: black;
+}
+.centered-header {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.centered-header-source {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.steps {
+    font-weight: bold;
+    font-size: 18px;
+}
+.quote {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    color: white;
+}
+.quote-source {
+    text-align: center;
+    font-weight: 500;
+}
 img {
-    width: 15%;
+    width: 55%;
+    display: block;
+    margin: 0 auto;
 }
