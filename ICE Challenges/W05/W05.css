@@ -1,6 +1,3 @@
-/* * {
-    border: solid red 1px;
-} */
 #quote {
     width: 70%;
     display: block;
@@ -20,5 +17,4 @@ footer {
     height: 300px;
     display: flex;
     align-items: center;
-  
 }
