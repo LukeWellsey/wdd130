@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#background {
+    background-color: #5CA1D7;
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+#content {
+    display: block;
+    margin: 0 auto;
+    max-width: 35%;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.title {
+    padding-top: 15px;
+}
+.title:hover {
+    color: black;
+}
+.title, .quoteone, .quotetwo, h5 {
+    color: white;
+    text-align: center;
+}
+.quoteone {
+    font-size: small;
+}
+.quotetwo {
+    font-family: 'Times New Roman', Times, serif;
+}
+.source {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: small;
+}
+ol {
+    font-weight: bold;
+    font-size: small;
+}
