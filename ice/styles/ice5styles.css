@@ -1,0 +1,20 @@
+#quote {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.icon {
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: solid #444444 10px;
+}
+footer {
+    background-color: #737373;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
