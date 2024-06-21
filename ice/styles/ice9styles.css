@@ -1,0 +1,51 @@
+body {
+    background-color: #1E1E1E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.card {
+    width: 250px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+}
+.headerimage {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.awesomearticle {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.grid-container {
+    background-color: #3F5B8B;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white; 
+}
+p, h1 {
+    text-align: center;
+}
+h1 {
+    margin: 0px;
+    font-weight: bold;
+}
+.description {
+    font-size: 8pt;
+    margin-top: 4px;
+}
+.subgrid {
+    display: grid;
+    padding-top: 10px;
+}
+.one, .two {
+/* janky */
+    border-right: solid 1px grey;
+}
+.info {
+    margin: 0;
+}
