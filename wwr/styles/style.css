@@ -212,6 +212,8 @@ footer .social img {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+
 }
 .title {
     position: absolute;
@@ -226,6 +228,7 @@ footer .social img {
     height: 90%;
     display: block;
     margin: 0 auto;
+    
 }
 #card-holder {
     display: grid;
@@ -242,6 +245,12 @@ footer .social img {
     grid-template-columns: auto;
     grid-template-rows: 280px 100px 400px;
     position: relative;
+
+}
+.faq-card:hover {
+    transform: scale(1.03);
+    transition: 0.1s;
+
 }
 .question {
     position: absolute;
