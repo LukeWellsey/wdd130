@@ -205,6 +205,59 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* FAQ Page */
+
+.FAQ-hero {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.tile-img {
+    padding: 20px;
+    width: 380px;
+    height: 280px;
+    display: block;
+    margin: 0 auto;
+}
+#card-holder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 40% 45%;
+    column-gap: 50px;
+    row-gap: 50px;
+    max-width: 1600px;    
+}
+.faq-card {
+    border: 10px solid #1A1423;
+    box-shadow: 5px 5px 10px #6f7364;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 280px 100px 400px;
+    position: relative;
+}
+.question {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 30px;
+}
+.answer {
+    text-align: center;
+    padding: 30px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
